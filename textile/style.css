@@ -74,8 +74,6 @@
   align-items: center;
 }
 
-/* NEW PRODUCTS */
-
 .languages {
   border: none;
 }
@@ -83,12 +81,12 @@
 .btns {
   width: 90px;
   height: 35px;
-  background-color: #2805ff;
-  border: 1px solid #2805ff;
+  background-color: #2d11be;
+  border: 1px solid #2d11be;
 }
 .blueclr {
-  background-color: #2805ff;
-  border: 1px solid #2805ff;
+  background-color: #2d11be;
+  border: 1px solid #2d11be;
 }
 
 .txtbox {
@@ -110,8 +108,8 @@
 }
 
 .cardsborder {
-  width: 85%;
-  height: 380px;
+  width: 1200px;
+  height: 350px;
   display: flex;
   align-items: center;
   border: 1px solid #e7e7e7;
@@ -119,7 +117,7 @@
 }
 .firstcard {
   width: 30%;
-  height: 85%;
+  height: 100%;
   margin-left: 50px;
   padding-right: 70px;
 }
@@ -128,20 +126,85 @@
   display: flex;
   justify-content: center;
   width: 40%;
-  height: 85%;
+  height: 100%;
   padding-left: 55px;
-  padding-right: 55px;
+  padding-right: 50px;
 }
 .thirdcard {
   width: 25%;
-  height: 85%;
+  padding-left: 30px;
 }
 #strs1 {
-  width: 20px;
-  margin-right: 5px;
-
-  margin-bottom: 1px;
+  width: 22px;
+  margin-right: 6px;
+  margin-bottom: 5px;
 }
+.btnbuy {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circlesize {
+  width: 50px;
+  height: 50px;
+}
+.bottom_bar {
+  width: 1200px;
+  height: 78px;
+  border: 1px solid #e7e7e7;
+  border-radius: 20px;
+}
+.btn1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background-color: #2d11be;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.numbers {
+  margin-top: 10px;
+}
+.suit {
+  width: 1400px;
+}
+.txt_on_img {
+  width: 430px;
+  position: absolute;
+  color: white;
+  float: left;
+  margin-top: 130px;
+  margin-left: 80px;
+}
+.plchldr_box {
+  width: 500px;
+  padding: 3px;
+}
+.img_plchldr {
+  border: none;
+}
+.plchldr_btn {
+  width: 100px;
+  height: 45px;
+  margin-left: 38px;
+  color: white;
+}
+
+.mwk {
+  width: 750px;
+}
+.line {
+  width: 100px;
+  height: 0px;
+  border-top: 1px solid #c4c4c4;
+}
+.mwktxt {
+  font-size: 22px;
+}
+
 /*Footer*/
 
 .footer {
@@ -155,6 +218,9 @@
 }
 .bluetxt {
   color: #2805ff;
+}
+.greytxt {
+  color: #757575;
 }
 
 .address {
