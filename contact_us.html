@@ -30,11 +30,12 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./textile/style.css" />
-    <title>About us</title>
+    <title>Contact Us</title>
   </head>
 
   <body>
-    <div class="barshadow d-flex justify-content-center">
+    <!-- Nav_bar -->
+    <div class="barshadow d-flex justify-content-center mb-4">
       <nav class="navbar navbar-expand-lg navbar-light">
         <img class="logo me-5" src="./textile/imgs/logo imir 1.png" />
         <div class="container-fluid">
@@ -52,10 +53,7 @@
           <div class="collapse navbar-collapse ms-5" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item ms-4 me-4">
-                <a
-                  class="nav-link active inter"
-                  aria-current="page"
-                  href="./index.html"
+                <a class="nav-link active inter" aria-current="page" href="#"
                   >Home</a
                 >
               </li>
@@ -70,18 +68,18 @@
                 >
               </li>
               <li class="nav-item me-4">
-                <a class="nav-link active inter" href="#">About Us</a>
+                <a class="nav-link active inter" href="./about_us.html"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item me-5">
-                <a class="nav-link active inter" href="./contact_us.html"
-                  >Contact Us</a
-                >
+                <a class="nav-link active inter" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div class="d-flex">
+        <div class="d-flex ms-5">
           <select class="border-0 bg-white">
             <option selected>Uzb</option>
             <option value="1">En</option>
@@ -96,64 +94,56 @@
         </div>
       </nav>
     </div>
+    <!--#Nav_bar -->
 
-    <div
-      class="
-        container
-        d-flex
-        justify-content-center
-        flex-column
-        align-items-center
-      "
-    >
-      <img class="mb-5" src="./textile/imgs/Rectangle 176.svg" />
-      <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
-        <img class="me-4" src="./textile/imgs/imgvector1.png" />
-        <img class="me-4" src="./textile/imgs/Rectangle 177.svg" />
-        <img class="me-4" src="./textile/imgs/Rectangle 178.svg" />
-        <img src="./textile/imgs/Rectangle 179.svg" />
-        <img class="ms-4" src="./textile/imgs/imgvector2.png" />
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="box1 mt-5 d-flex justify-content-between py-3 px-5">
+        <div
+          class="bx1 row ms-5 d-flex justify-content-center align-items-center"
+        >
+          <div class="ellipse m_l_minus">
+            <img src="./textile/imgs/store_img.svg" />
+          </div>
+          <strong>Online store “Imirgroup”</strong>
+          <p id="txt">Uzbekiston, Namangan do’stlik street 166</p>
+        </div>
+        <div
+          class="bx2 row ms-5 d-flex justify-content-center align-items-center"
+        >
+          <div class="ellipse"><img src="./textile/imgs/phone_img.svg" /></div>
+          <strong>Phone number:</strong>
+          <a id="txt" class="text-decoration-none" href="tel:+998 94 525 00 25"
+            >+998 94 525 00 25 +998 94 525 00 25 +998 94 525 00 25</a
+          >
+        </div>
+        <div
+          class="bx3 row mx-5 d-flex justify-content-center align-items-center"
+        >
+          <div class="ellipse"><img src="./textile/imgs/time_img.svg" /></div>
+          <strong>Opening times</strong>
+          <p id="txt">
+            Monday-Friday 8:00-17:00 Saturday <br />
+            8:00-17:00
+          </p>
+        </div>
       </div>
-      <div class="txtbox mt-5 mb-5 p-3">
-        <img class="logo" src="./textile/imgs/logo imir 1.png" />
-        <p class="inter loremsize mt-3 mb-3">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-        <p class="lorem inter mt-3 mb-3">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-        <p class="inter loremsize mt-3 mb-3">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s
-        </p>
+
+      <div class="box2 mt-5 d-flex align-items-center">
+        <p class="red_asterisk">*</p>
+        Name
       </div>
-      <h1 class="mt-5 mb-5">Our map</h1>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.148283595823!2d71.59727881479168!3d41.00012752787644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb4b4c10d39d1d%3A0x842012a7c83d2e5d!2sImir!5e0!3m2!1sru!2s!4v1631940185379!5m2!1sru!2s"
-        style="width: 100%"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-      <!-- Footer -->
+      <div class="box3 my-4 d-flex align-items-center">
+        <p class="red_asterisk">*</p>
+        Enter your e-mail address here
+      </div>
+      <div class="box4 d-flex">
+        <p class="red_asterisk2">*</p>
+        <p class="mt-3">Your request and questions</p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="d-flex justify-content-center">
       <footer>
         <div class="footer whitetxt d-flex justify-content-evenly p-5">
           <div class="mt-5 me-5">
@@ -258,8 +248,9 @@
           </div>
         </div>
       </footer>
-      <!-- Footer -->
     </div>
+    <!-- Footer -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

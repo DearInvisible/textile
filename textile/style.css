@@ -266,6 +266,66 @@ body {
 .m_top_mns {
   margin-top: -25px;
 }
+.m_l_minus {
+  margin-left: -25px;
+}
+.box1 {
+  width: 1030px;
+  height: 180px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+}
+.box2 {
+  width: 1030px;
+  height: 55px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+}
+.box3 {
+  width: 1030px;
+  height: 55px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+}
+.box4 {
+  width: 1030px;
+  height: 190px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+}
+.ellipse {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(45, 17, 190, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bx1 {
+  width: 223px;
+  height: 125px;
+}
+#txt {
+  font-size: 14px;
+  color: #757575;
+}
+.bx2 {
+  width: 148px;
+}
+.bx3 {
+  width: 142px;
+}
+.red_asterisk {
+  color: red;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.red_asterisk2 {
+  color: red;
+  margin-top: 18px;
+  margin-right: 10px;
+}
 
 /*Footer*/
 
