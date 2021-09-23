@@ -93,7 +93,7 @@ body {
 
 .txtbox {
   width: auto;
-  height: 350px;
+  height: 370px;
   border: 1px solid #e7e7e7;
   border-radius: 20px;
 }
@@ -312,9 +312,11 @@ body {
 }
 .bx2 {
   width: 148px;
+  height: 125px;
 }
 .bx3 {
   width: 142px;
+  height: 125px;
 }
 .red_asterisk {
   color: red;
