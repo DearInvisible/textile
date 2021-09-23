@@ -24,7 +24,7 @@ body {
   height: 205px;
 }
 .cardtxt {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: -5px;
 }
 .price {
@@ -68,7 +68,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
   margin-left: 175px;
 }
 .plusheight {
@@ -138,7 +137,7 @@ body {
   padding-left: 30px;
 }
 #strs1 {
-  width: 22px;
+  width: 23px;
   margin-right: 6px;
   margin-bottom: 5px;
 }
@@ -241,6 +240,31 @@ body {
   font-size: 18px;
   line-height: 28px;
   opacity: 0.7;
+}
+.rectangle_1 {
+  width: 50px;
+  height: 22px;
+  background-color: #ed9005;
+  opacity: 0.99;
+  text-align: center;
+  border-radius: 20px 7px;
+  color: #ffffff;
+}
+.addbtn_orange {
+  position: absolute;
+  margin-left: 184px;
+}
+.line_through {
+  color: #ed9005;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration-line: line-through;
+  margin-top: -10px;
+  margin-right: 105px;
+}
+.m_top_mns {
+  margin-top: -25px;
 }
 
 /*Footer*/
