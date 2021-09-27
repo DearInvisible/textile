@@ -28,63 +28,74 @@
 
   <body>
     <!-- Nav_bar -->
-    <div class="barshadow d-flex justify-content-center">
+    <div class="barshadow">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <img class="logo me-5" src="./textile/imgs/logo imir 1.png" />
         <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="logo nav_logo me-5 ms-5"
+              src="./textile/imgs/logo imir 1.png"
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarText"
-            aria-controls="navbarText"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse ms-5" id="navbarText">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item ms-4 me-4">
-                <a class="nav-link active inter" aria-current="page" href="./index.html"
+              <li class="nav-item me-4 ms-5 nav_home">
+                <a class="nav-link active inter" aria-current="page" href="#"
                   >Home</a
                 >
               </li>
               <li class="nav-item me-4">
-                <a class="nav-link active inter" href="#">New products</a>
+                <a class="nav-link active inter" href="./new_products.html"
+                  >New products</a
+                >
               </li>
               <li class="nav-item me-4">
-                <a class="nav-link active inter" href="./clothes_men.html">Clothes</a>
+                <a class="nav-link active inter" href="./clothes_men.html"
+                  >Clothes</a
+                >
               </li>
               <li class="nav-item me-4">
-                <a class="nav-link active inter" href="./about_us.html">About Us</a>
+                <a class="nav-link active inter" href="./about_us.html"
+                  >About Us</a
+                >
               </li>
               <li class="nav-item me-5">
-                <a class="nav-link active inter" href="./contact_us.html">Contact Us</a>
+                <a class="nav-link active inter" href="./contact_us.html"
+                  >Contact Us</a
+                >
               </li>
             </ul>
+            <select class="border-0 bg-white">
+              <option selected>Uzb</option>
+              <option value="1">En</option>
+              <option value="2">Ru</option>
+            </select>
           </div>
         </div>
-
         <div class="d-flex ms-5">
-          <select class="border-0 bg-white">
-            <option selected>Uzb</option>
-            <option value="1">En</option>
-            <option value="2">Ru</option>
-          </select>
-          <button class="btn btns ms-5 bg-white" type="button">
+          <button class="btn btns1 bg-white" type="button">
             <p class="bluetxt">Sign in</p>
           </button>
-          <button class="btn btns ms-4" type="button">
+          <button class="btn btns2 me-5" type="button">
             <p class="whitetxt">Sign up</p>
           </button>
         </div>
       </nav>
     </div>
-     <!-- #Nav_bar -->
+    <!--#Nav_bar -->
 
     <div class="d-flex justify-content-center align-items-center">
-      <p class="txt me-5 inter">
+      <p class="txt me-5 inter news_txt">
         ARE YOU LOOKING FOR NEWS? <br /><br />
         <span class="h1 inter"
           ><strong
@@ -96,7 +107,6 @@
       <img class="imgsize ms-2" src="./textile/imgs/Untitled-3 1.png" />
     </div>
     <div class="flex-column d-flex align-items-center">
-      
       <div
         class="box mt-5 mb-5 d-flex justify-content-between align-items-center"
       >
@@ -110,9 +120,12 @@
       </div>
     </div>
 
-    <div class="row mb-5 d-flex justify-content-center">
+    <div class="row mb-5 d-flex justify-content-center ms-2">
       <!-- card -->
-      <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
+      <div
+        class="card card1 me-3 radius p-3"
+        style="width: 17rem; height: 24rem"
+      >
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
           ><a href="#" class="links text-dark loremsize"> 1 </a
@@ -144,10 +157,13 @@
           </div>
         </div>
       </div>
-       <!-- #card -->
+      <!-- #card -->
 
-        <!-- card -->
-      <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
+      <!-- card -->
+      <div
+        class="card card1 me-3 radius p-3"
+        style="width: 17rem; height: 24rem"
+      >
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
           ><a href="#" class="links text-dark loremsize"> 1 </a
@@ -179,9 +195,9 @@
           </div>
         </div>
       </div>
- <!-- #card -->
+      <!-- #card -->
 
-  <!-- card -->
+      <!-- card -->
       <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
@@ -214,9 +230,9 @@
           </div>
         </div>
       </div>
-       <!-- #card -->
+      <!-- #card -->
 
-        <!-- card -->
+      <!-- card -->
       <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
@@ -249,7 +265,7 @@
           </div>
         </div>
       </div>
-       <!-- #card -->
+      <!-- #card -->
     </div>
 
     <div class="flex-column d-flex align-items-center">
@@ -266,8 +282,12 @@
       </div>
     </div>
 
-    <div class="row mb-5 d-flex justify-content-center">
-      <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
+    <div class="row mb-5 d-flex justify-content-center  ms-2">
+      <!-- card -->
+      <div
+        class="card card1 me-3 radius p-3"
+        style="width: 17rem; height: 24rem"
+      >
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
           ><a href="#" class="links text-dark loremsize"> 1 </a
@@ -300,8 +320,13 @@
           </div>
         </div>
       </div>
+      <!-- #card -->
 
-      <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
+      <!-- card -->
+      <div
+        class="card card1 me-3 radius p-3"
+        style="width: 17rem; height: 24rem"
+      >
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
           ><a href="#" class="links text-dark loremsize"> 1 </a
@@ -333,7 +358,9 @@
           </div>
         </div>
       </div>
+      <!-- #card -->
 
+      <!-- card -->
       <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
@@ -366,7 +393,9 @@
           </div>
         </div>
       </div>
+      <!-- #card -->
 
+      <!-- card -->
       <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
@@ -399,6 +428,7 @@
           </div>
         </div>
       </div>
+      <!-- #card -->
     </div>
 
     <div class="flex-column d-flex align-items-center">
@@ -415,8 +445,12 @@
       </div>
     </div>
 
-<div class="row mb-5 d-flex justify-content-center">
-      <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
+    <div class="row mb-5 d-flex justify-content-center  ms-2">
+      <!-- card -->
+      <div
+        class="card card1 me-3 radius p-3"
+        style="width: 17rem; height: 24rem"
+      >
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
           ><a href="#" class="links text-dark loremsize"> 1 </a
@@ -448,8 +482,13 @@
           </div>
         </div>
       </div>
+      <!-- #card -->
 
-      <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
+      <!-- card -->
+      <div
+        class="card card1 me-3 radius p-3"
+        style="width: 17rem; height: 24rem"
+      >
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
           ><a href="#" class="links text-dark loremsize"> 1 </a
@@ -481,7 +520,9 @@
           </div>
         </div>
       </div>
+      <!-- #card -->
 
+      <!-- card -->
       <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
@@ -514,7 +555,9 @@
           </div>
         </div>
       </div>
+      <!-- #card -->
 
+      <!-- card -->
       <div class="card me-3 radius p-3" style="width: 17rem; height: 24rem">
         <div class="addbtn rounded-3">
           <a href="#" class="links border-end plusheight pe-1 text-dark"> - </a
@@ -547,14 +590,15 @@
           </div>
         </div>
       </div>
+      <!-- #card -->
+    </div>
 
-       <!-- Footer -->
-      
-    <div class="d-flex justify-content-center">
+    <!-- Footer -->
+    
       <footer>
-         <div class="footer whitetxt d-flex justify-content-evenly p-5">
+        <div class="footer w-100 img-fluid whitetxt d-flex justify-content-evenly p-5">
           <div class="mt-5 me-5">
-            <h5><strong>OUR RECOMMENDATIONS FOR YOU</strong></h5>
+            <h5 class="rcmtdtn_txt_ftr"><strong>OUR RECOMMENDATIONS FOR YOU</strong></h5>
             <h6>
               View products with current <br />
               discounts
@@ -572,65 +616,62 @@
 
         <section>
           <div class="mt-5 d-flex justify-content-center">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mb-4 address me-5">
-                <img class="logo" src="./textile/imgs/logo imir 1.png" />
+            <div class="row mt-3 ftr_cntnt">
+              <div class="col-md-3 col-lg-4 col-xl-3 mb-4 address me-5 addrss_ftr">
+                <img class="logo logo_ftr" src="./textile/imgs/logo imir 1.png" />
 
-                <strong>Address</strong><br />
-                <p class="disabled_txt_clr">
+                <strong>ADDRESS</strong><br />
+                <p class="text-muted">
                   O’zbekiston, Namangan do’stlik street 166
                 </p>
                 <strong>Need help?</strong><br />
                 <a
                   href="tel:+998 93 915 15 15"
-                  class="disabled_txt_clr text-decoration-none"
+                  class="text-muted text-decoration-none"
                   >+998 93 915 15 15</a
                 >
               </div>
 
-              <div class="col-md-2 col-lg-2 col-xl-2 mb-4 mx-3">
+              <div class="col-md-2 col-lg-2 col-xl-2 mb-4 mx-3 info_ftr">
                 <h6 class="fw-bold mb-4">INFORMATION</h6>
-                <a class="links disabled_txt_clr" href="#">FAQ</a><br />
-                <a class="links disabled_txt_clr" href="#">How to buy?</a><br />
-                <a class="links disabled_txt_clr" href="#"
+                <a class="links text-muted" href="#">FAQ</a><br />
+                <a class="links text-muted" href="#">How to buy?</a><br />
+                <a class="links text-muted" href="#"
                   >Type of delivery and payment</a
                 ><br />
               </div>
 
-              <div class="col-md-2 col-lg-2 col-xl-2 mb-4 ms-4 me-3">
+              <div class="col-md-2 col-lg-2 col-xl-2 mb-4 ms-4 me-3 cntct_us_ftr">
                 <h6 class="fw-bold mb-4">CONTACT US</h6>
-                <a class="links disabled_txt_clr" href="#"
+                <a class="links text-muted" href="#"
                   ><img src="./textile/imgs/inst_black.png" /> @ImirGroup</a
                 ><br />
-                <a class="links disabled_txt_clr" href="#"
+                <a class="links text-muted" href="#"
                   ><img src="./textile/imgs/tg_black.png" /> @tme//.ImirGroup</a
                 ><br />
-                <a class="links disabled_txt_clr" href="#"
+                <a class="links text-muted" href="#"
                   ><img src="./textile/imgs/fb_black.png" /> @ImirGroup</a
                 >
               </div>
 
               <div class="col-md-4 mb-4 ms-3">
-                <h6 class="fw-bold mb-4">YANGILIKLARGA OBUNA BO'LISH</h6>
-                <a class="links disabled_txt_clr" href="#"
-                  >You can buy anything you like in our shop online by E-mail</a
+              <div class="obuna_ftr">
+                <h6 class="fw-bold mb-4 news_txt">YANGILIKLARGA OBUNA BO'LISH</h6>
+                <p class="text-muted"
+                  >You can buy anything you like in our shop online by E-mail</p
                 >
-
                 <div
-                  class="d-flex placeholder align-items-center rounded-3 mt-2"
+                  class="d-flex placeholder align-items-center rounded-3 mt-2 obuna_plchldr"
                 >
                   <input
-                    class="ms-2 me-3 border-0 bg-light"
+                    class="ms-2 me-3 border-0 bg-light obuna_plchldr"
                     placeholder="Pochta manzilingizni kiriting..."
                   />
-                  <button
-                    class="btn blueclr w-auto h-75 ms-2"
-                    type="submit"
-                  >
+                  <button class="btn blueclr w-auto h-75 ms-2" type="submit">
                     <strong class="whitetxt">Obuna bo'lish</strong>
                   </button>
                 </div>
-              </div>
+              </div></div>
             </div>
           </div>
         </section>
@@ -659,7 +700,7 @@
         </div>
       </footer>
     </div>
-      <!-- Footer -->
+    <!-- Footer -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

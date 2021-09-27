@@ -223,6 +223,9 @@ body {
 .suit_rounded {
   border-radius: 20px;
 }
+.circles {
+  margin-left: 20px;
+}
 .circles_lttl {
   width: 13px;
   height: 13px;
@@ -374,8 +377,15 @@ body {
   border-radius: 5px;
 }
 
-/* iPad */
 @media (max-width: 990px) {
+  /* iPad */
+  /* Home page */
+  .nav_logo {
+    margin: 0 !important;
+  }
+  .nav_home {
+    margin: 0 !important;
+  }
   .btns1 {
     position: absolute;
     top: 20px;
@@ -493,5 +503,14 @@ body {
     height: 50px;
     background-color: #f8f8f8;
     margin: 0 !important;
+  }
+  /* #Home page */
+
+  /* New products */
+  .news_txt {
+    margin-left: 100px !important;
+  }
+  .card1 {
+    margin-bottom: 1rem;
   }
 }
