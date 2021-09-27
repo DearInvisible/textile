@@ -124,6 +124,9 @@ body {
   border: 1px solid #e7e7e7;
   border-radius: 20px;
 }
+.cardsborder1 {
+  display: none !important;
+}
 .firstcard {
   width: 30%;
   height: 100%;
@@ -512,5 +515,42 @@ body {
   }
   .card1 {
     margin-bottom: 1rem;
+  }
+  /* #New products */
+
+  /* Clothes men */
+  .cardsborder {
+    display: none !important;
+  }
+  .cardsborder1 {
+    width: 1000px !important;
+    height: 270px !important;
+    display: flex !important;
+    align-items: center !important;
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 20px !important;
+  }
+  .firstcard1 {
+    width: 50% !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .card-img-top {
+    width: 150px !important;
+    margin-bottom: 10px !important;
+    margin-left: -20px !important;
+  }
+  .secondcard1 {
+    width: 270px !important;
+  }
+  .thirdcard1 {
+    width: 50% !important;
+    padding-left: 40px !important;
+  }
+
+  .card-title {
+    margin-top: 0 !important;
   }
 }
