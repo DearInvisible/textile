@@ -80,11 +80,18 @@ body {
   border: none;
 }
 
-.btns {
+.btns1 {
   width: 90px;
   height: 35px;
   background-color: #2d11be;
   border: 1px solid #2d11be;
+}
+.btns2 {
+  width: 90px;
+  height: 35px;
+  background-color: #2d11be;
+  border: 1px solid #2d11be;
+  margin-left: 20px;
 }
 .blueclr {
   background-color: #2d11be;
@@ -169,9 +176,6 @@ body {
 }
 .numbers {
   margin-top: 10px;
-}
-.suit {
-  width: 1400px;
 }
 .txt_on_img {
   width: 430px;
@@ -333,8 +337,6 @@ body {
 
 .footer {
   background-image: url(./imgs/Rectangle\ 198.png);
-  width: 1450px;
-  height: 240px;
 }
 .whitetxt {
   color: #ffffff;
@@ -346,7 +348,10 @@ body {
 .greytxt {
   color: #757575;
 }
-
+.logo_ftr {
+  margin-left: -10px;
+  margin-top: -5px;
+}
 .address {
   width: 205px;
 }
@@ -358,9 +363,6 @@ body {
   height: 50px;
   background-color: #f8f8f8;
 }
-.disabled_txt_clr {
-  color: #666666;
-}
 .cards {
   width: 60px;
   height: 26px;
@@ -370,4 +372,126 @@ body {
   background-color: #e7e7e7;
   border: 1px solid #b4b4b4;
   border-radius: 5px;
+}
+
+/* iPad */
+@media (max-width: 990px) {
+  .btns1 {
+    position: absolute;
+    top: 20px;
+    margin-left: 420px;
+  }
+  .btns2 {
+    position: absolute;
+    top: 20px;
+    margin-left: 520px;
+  }
+  .txt_on_img {
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .txt_on_img_bggr {
+    font-size: 20px;
+  }
+  .txt_on_img_smllr {
+    font-size: 15px;
+  }
+  .plchldr_box {
+    width: 200px;
+    height: 30px;
+    padding: 3px;
+  }
+  .plchldr {
+    width: 140px;
+    height: 25px;
+  }
+  .img_plchldr {
+    width: 150px;
+    height: 25px;
+  }
+  .mgnfr_icn {
+    width: 15px;
+    margin-top: -3px;
+  }
+  .plchldr_btn {
+    width: 70px;
+    height: 32px;
+    margin-left: -30px;
+    margin-top: -4px;
+    color: white;
+  }
+  .printed_shirts {
+    position: absolute;
+    width: 330px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-left: 140px;
+    font-size: 20px;
+  }
+  .delivery-txt {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.7;
+  }
+  .clothing_delivery {
+    width: 1450px;
+    height: 450px;
+    background: #f3f3f3;
+    padding-left: 120px;
+    padding-right: 100px;
+    padding-top: 45px;
+  }
+  .partners {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+  }
+  .partner_logos {
+    width: 400px;
+    margin-top: 30px;
+  }
+  .rcmtdtn_txt_ftr {
+    font-size: 18px;
+  }
+  .ftr_cntnt {
+    display: flex;
+    width: 650px;
+  }
+  .addrss_ftr {
+    width: 220px;
+    margin-right: 0 !important;
+  }
+  .logo_ftr {
+    display: none;
+  }
+  .info_ftr {
+    width: 150px;
+  }
+  .cntct_us_ftr {
+    width: 170px;
+    padding: 0 !important;
+  }
+  .obuna_ftr {
+    width: 500px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .news_txt {
+    margin: 10px !important;
+    margin-top: 20px !important;
+  }
+  .placeholder {
+    width: 405px;
+    height: 50px;
+    background-color: #f8f8f8;
+    margin: 0 !important;
+  }
 }
