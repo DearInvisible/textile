@@ -581,4 +581,33 @@ body {
     padding: 10px;
   }
   /* #About us */
+
+  /* Contact Us */
+  .box1 {
+    width: 700px;
+    height: 180px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    padding: 0 !important;
+    padding-top: 20px !important;
+  }
+  .bx1 {
+    width: 290px;
+  }
+  .bx2 {
+    width: 200px;
+  }
+  .bx3 {
+    width: 200px;
+  }
+  .box2 {
+    width: 700px;
+  }
+  .box3 {
+    width: 700px;
+  }
+  .box4 {
+    width: 700px;
+  }
+  /* #Contact Us */
 }
