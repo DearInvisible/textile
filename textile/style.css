@@ -237,11 +237,12 @@ body {
 }
 .clothing_delivery {
   width: 1450px;
-  height: 400px;
+  height: auto;
   background: #f3f3f3;
   padding-left: 120px;
   padding-right: 100px;
   padding-top: 45px;
+  padding-bottom: 30px;
 }
 .delivery-txt {
   font-family: Inter;
@@ -343,6 +344,10 @@ body {
 
 .footer {
   background-image: url(./imgs/Rectangle\ 198.png);
+  box-sizing: unset !important;
+}
+.icons_container {
+  margin-left: 150px;
 }
 .whitetxt {
   color: #ffffff;
@@ -379,15 +384,11 @@ body {
   border: 1px solid #b4b4b4;
   border-radius: 5px;
 }
-
 @media (max-width: 990px) {
   /* iPad */
   /* Home page */
-  .nav_logo {
-    margin: 0 !important;
-  }
   .nav_home {
-    margin: 0 !important;
+    margin-left: 0 !important;
   }
   .btns1 {
     position: absolute;
@@ -422,6 +423,7 @@ body {
   .img_plchldr {
     width: 150px;
     height: 25px;
+    font-size: 10px;
   }
   .mgnfr_icn {
     width: 15px;
@@ -452,7 +454,6 @@ body {
   }
   .clothing_delivery {
     width: 1450px;
-    height: 450px;
     background: #f3f3f3;
     padding-left: 120px;
     padding-right: 100px;
@@ -464,6 +465,9 @@ body {
     flex-direction: column;
     width: 200px;
   }
+  .icons_container {
+    margin-left: 0;
+  }
   .partner_logos {
     width: 400px;
     margin-top: 30px;
@@ -474,6 +478,7 @@ body {
   .ftr_cntnt {
     display: flex;
     width: 650px;
+    margin-left: 40px;
   }
   .addrss_ftr {
     width: 220px;
@@ -502,17 +507,11 @@ body {
     margin-top: 20px !important;
   }
   .placeholder {
-    width: 405px;
-    height: 50px;
-    background-color: #f8f8f8;
     margin: 0 !important;
   }
   /* #Home page */
 
   /* New products */
-  .news_txt {
-    margin-left: 100px !important;
-  }
   .card1 {
     margin-bottom: 1rem;
   }
@@ -610,4 +609,367 @@ body {
     width: 700px;
   }
   /* #Contact Us */
+  /* #iPad */
+}
+
+@media (max-width: 773px) {
+  .btns1 {
+    margin-left: 300px;
+  }
+  .btns2 {
+    margin-left: 400px;
+  }
+  .partner_logos {
+    width: auto;
+  }
+  .rcmtdtn_txt_ftr {
+    font-size: 15px;
+  }
+}
+@media (max-width: 715px) {
+  .printed_shirts {
+    width: 270px;
+    line-height: 30px;
+    margin-left: 100px;
+    font-size: 16px;
+  }
+  .clothing_delivery {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+  }
+  .delivery-txt {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .delivery-title {
+    font-size: 25px;
+  }
+  .dscntd_prdcts {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .vw_products {
+    font-size: 14px;
+  }
+  .addrss_ftr {
+    width: 150px;
+    font-size: 14px;
+  }
+  .info_ftr {
+    width: 150px;
+    font-size: 14px;
+  }
+  .cntct_us_ftr {
+    width: 150px;
+    font-size: 14px;
+  }
+  .obuna_ftr {
+    font-size: 14px;
+  }
+}
+@media (max-width: 640px) {
+  .btns1 {
+    margin-left: 250px;
+  }
+  .btns2 {
+    margin-left: 350px;
+  }
+  .arrow {
+    width: 100px;
+  }
+  .pplr_prdcts {
+    margin: 0 !important;
+    font-size: 18px;
+  }
+  .clothing_delivery {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .delivery-txt {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .delivery-title {
+    font-size: 20px;
+  }
+  .rcmtdtn_txt_ftr {
+    font-size: 12px;
+  }
+  .vw_products {
+    font-size: 12px;
+  }
+  .see_now_ftr {
+    font-size: 15px;
+  }
+  .icons_container {
+    margin-right: 0 !important;
+    padding: auto;
+  }
+  .footer {
+    height: 100px;
+  }
+}
+
+@media (max-width: 590px) {
+  .logo {
+    margin-left: -5px !important;
+  }
+  .btns1 {
+    margin-left: 180px;
+  }
+  .btns2 {
+    margin-left: 280px;
+  }
+  .plchldr_box {
+    width: 165px;
+    height: 24px;
+  }
+  .mgnfr_icn {
+    width: 10px;
+    margin: 3px !important;
+    margin-top: -1px !important;
+  }
+  .img_plchldr {
+    width: 140px;
+    height: 18px;
+    padding: 0;
+  }
+  .plchldr_btn {
+    height: 24px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: -40px;
+    margin-top: -3px;
+  }
+  .mwk {
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .line {
+    width: 70px;
+  }
+  .mwktxt {
+    font-size: 20px;
+  }
+  .printed_shirts {
+    width: 240px;
+    line-height: 25px;
+    margin-left: 80px;
+    font-size: 16px;
+  }
+  .footer {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .icns {
+    margin: 5px !important;
+  }
+}
+
+@media (max-width: 520px) {
+  .nav_logo {
+    width: 105px;
+    height: 35px;
+    margin-left: -8px !important;
+  }
+  .btns1 {
+    width: 70px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: -5px;
+  }
+  .btn1_txt {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .btns2 {
+    width: 70px;
+    height: 30px;
+    margin-left: 210px;
+    margin-top: -5px;
+  }
+  .btn2_txt {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .line {
+    width: 40px;
+  }
+  .mwktxt {
+    font-size: 16px;
+  }
+  .printed_shirts {
+    width: 210px;
+    line-height: 22px;
+    margin-left: 70px;
+    font-size: 14px;
+  }
+  .clothing_delivery {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .delivery-txt {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .ftr_cntnt {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0;
+  }
+  .addrss_ftr {
+    width: auto;
+  }
+  .info_ftr {
+    width: auto;
+  }
+  .fw-bold {
+    margin-bottom: 0 !important;
+    font-size: 14px;
+  }
+  .cntct_us_ftr {
+    width: auto;
+    padding: 0 !important;
+  }
+  .obuna {
+    display: flex;
+    justify-content: center;
+  }
+  .obuna_ftr {
+    margin-top: 0;
+    width: 300px;
+  }
+  .placeholder {
+    width: 340px;
+    height: 30px;
+    background-color: #f8f8f8;
+  }
+  .ftr_plchldr_btn {
+    width: 100px !important;
+    font-size: 10px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .btns1 {
+    margin-left: 80px;
+  }
+  .btn1_txt {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .btns2 {
+    margin-left: 160px;
+  }
+  .btn2_txt {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .txt_on_img {
+    width: 180px;
+    margin-left: 15px;
+  }
+  .txt_on_img_bggr {
+    font-size: 14px;
+  }
+  .txt_on_img_smllr {
+    font-size: 12px;
+  }
+  .plchldr_box {
+    width: 130px;
+    height: 20px;
+    padding: 0 !important;
+  }
+  .img_plchldr {
+    width: 113px;
+    height: 16px;
+    font-size: 8px;
+    margin-top: 2px;
+  }
+  .mgnfr_icn {
+    width: 10px;
+    margin-top: 2px !important;
+  }
+  .plchldr_btn {
+    height: 20px;
+    margin-left: -45px;
+    margin-top: 0;
+    font-size: 10px;
+  }
+  .mwk {
+    height: 40px;
+  }
+  .mwktxt {
+    margin-top: 13px !important;
+  }
+  .arrow {
+    width: 65px;
+  }
+  .pplr_prdcts {
+    margin: 0 !important;
+    font-size: 14px;
+  }
+  .dscntd_prdcts {
+    margin: -10px !important;
+    font-size: 14px;
+  }
+  .line {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  .printed_shirts {
+    width: 160px;
+    line-height: 18px;
+    margin-left: 50px;
+    font-size: 11px;
+    margin-top: 7px;
+  }
+  .clothing_delivery {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .delivery-txt {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .icns {
+    width: 30px;
+  }
+  .cards {
+    width: 50px;
+    margin: 1px !important;
+  }
+}
+@media (max-width: 430px) {
+  .clothing_delivery {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .delivery-title {
+    font-size: 16px;
+  }
+  .delivery-txt {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .rcmtdtn_txt_ftr {
+    font-size: 10px !important;
+  }
+  .vw_products {
+    font-size: 8px;
+  }
+  .see_now_ftr {
+    font-size: 10px;
+  }
+  .footer {
+    height: 80px;
+  }
+  .icns {
+    margin-top: 30px !important;
+  }
 }
