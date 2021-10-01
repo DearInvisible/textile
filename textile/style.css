@@ -100,7 +100,7 @@ body {
 
 .txtbox {
   width: auto;
-  height: 370px;
+  height: auto;
   border: 1px solid #e7e7e7;
   border-radius: 20px;
 }
@@ -573,9 +573,6 @@ body {
     width: 20px;
   }
   .txtbox {
-    width: auto;
-    height: 520px;
-    border: 1px solid #e7e7e7;
     border-radius: 15px;
     padding: 10px;
   }
@@ -613,6 +610,7 @@ body {
 }
 
 @media (max-width: 773px) {
+  /* Home */
   .btns1 {
     margin-left: 300px;
   }
@@ -625,6 +623,32 @@ body {
   .rcmtdtn_txt_ftr {
     font-size: 15px;
   }
+  /* #Home */
+
+  /* About us */
+  .sld_cntnr {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .img_first {
+    width: 150px;
+  }
+  .img_second {
+    width: 150px;
+  }
+  .img_third {
+    width: 150px;
+  }
+  .vctr1 {
+    width: 15px;
+  }
+  .vctr2 {
+    width: 15px;
+  }
+  .txtbox {
+    margin-bottom: 0 !important;
+  }
+  /* #About us */
 }
 @media (max-width: 715px) {
   .printed_shirts {
@@ -709,9 +733,18 @@ body {
   .footer {
     height: 100px;
   }
+  .lorem_logo {
+    width: 90px;
+    height: 30px;
+  }
+  .loremsize {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 
 @media (max-width: 590px) {
+  /* Home */
   .logo {
     margin-left: -5px !important;
   }
@@ -767,6 +800,24 @@ body {
   .icns {
     margin: 5px !important;
   }
+  /* #Home */
+
+  /* About us */
+  .img_first {
+    margin-right: 5px !important;
+  }
+  .img_second {
+    margin-right: 5px !important;
+  }
+  .vctr1 {
+    width: 12px;
+    margin-right: 10px !important;
+  }
+  .vctr2 {
+    width: 12px;
+    margin-left: 10px !important;
+  }
+  /* #About us */
 }
 
 @media (max-width: 520px) {
@@ -853,6 +904,21 @@ body {
     font-size: 10px;
     padding: 0;
   }
+
+  /* About us */
+  .img_first {
+    width: 120px;
+  }
+  .img_second {
+    width: 120px;
+  }
+  .img_third {
+    width: 120px;
+  }
+  .our_map {
+    margin: 20px !important;
+  }
+  /* #About us */
 }
 
 @media (max-width: 450px) {
@@ -972,4 +1038,24 @@ body {
   .icns {
     margin-top: 30px !important;
   }
+
+  /* About us */
+  .img_first {
+    width: 110px;
+  }
+  .img_second {
+    width: 110px;
+  }
+  .img_third {
+    width: 110px;
+  }
+  .vctr1 {
+    width: 6px;
+    margin-right: 3px !important;
+  }
+  .vctr2 {
+    width: 6px;
+    margin-left: 3px !important;
+  }
+  /* #About us */
 }
