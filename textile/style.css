@@ -382,6 +382,10 @@ body {
   border: 1px solid #b4b4b4;
   border-radius: 5px;
 }
+.ftr_c_u {
+  overflow-x: hidden;
+  margin-left: -20px !important;
+}
 @media (max-width: 990px) {
   /* iPad */
   /* Home page */
@@ -539,7 +543,6 @@ body {
     align-items: center !important;
   }
   .card-img-top {
-    width: 150px !important;
     margin-bottom: 10px !important;
     margin-left: -20px !important;
   }
