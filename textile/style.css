@@ -193,6 +193,8 @@ html {
   padding: 3px;
 }
 .img_plchldr {
+  outline: none !important;
+
   border: none;
 }
 .plchldr_btn {
@@ -547,6 +549,12 @@ html {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+  }
+  .first_img {
+    width: 160px;
+  }
+  .t-shirt_txt {
+    font-size: 18px;
   }
   .card-img-top {
     margin-bottom: 10px !important;
@@ -1222,10 +1230,12 @@ html {
     padding-left: 0 !important;
   }
   .first_img {
-    margin-bottom: 0 !important;
+    width: 90px !important;
+    margin-bottom: 5px !important;
   }
   .t-shirt_txt_card {
     padding: 0;
+    padding-right: 5px;
   }
   .thirdcard1 {
     padding-left: 15px !important;
