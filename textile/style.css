@@ -373,9 +373,12 @@ html {
   text-decoration: none;
 }
 .placeholder {
-  width: 380px;
+  width: 430px;
   height: 50px;
   background-color: #f8f8f8;
+}
+.ftr_plchldr_btn {
+  width: 150px !important;
 }
 .cards {
   width: 60px;
