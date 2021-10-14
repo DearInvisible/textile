@@ -1,6 +1,9 @@
 html {
   overflow-x: hidden;
 }
+a {
+  text-decoration: none;
+}
 .wdth {
   width: 1350px;
 }
@@ -127,9 +130,7 @@ html {
   border: 1px solid #e7e7e7;
   border-radius: 20px;
 }
-.cardsborder1 {
-  display: none !important;
-}
+
 .firstcard {
   width: 30%;
   height: 100%;
@@ -148,6 +149,9 @@ html {
 .thirdcard {
   width: 25%;
   padding-left: 30px;
+}
+.shirt_txt_short {
+  display: none;
 }
 #strs1 {
   width: 23px;
@@ -538,48 +542,44 @@ html {
 
   /* Clothes men */
   .cardsborder {
-    display: none !important;
-  }
-  .cardsborder1 {
-    width: 1000px !important;
-    height: 270px !important;
-    display: flex !important;
-    align-items: center !important;
-    border: 1px solid #e7e7e7 !important;
-    border-radius: 20px !important;
-    margin-bottom: 30px;
-  }
-  .firstcard1 {
-    width: 50% !important;
-    height: 100% !important;
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-  .first_img {
-    width: 160px;
-  }
-  .t-shirt_txt {
-    font-size: 18px;
-  }
-  .card-img-top {
-    margin-bottom: 10px !important;
-    margin-left: -20px !important;
-  }
-  .secondcard1 {
-    width: 270px !important;
-    padding-right: 20px;
-  }
-  .thirdcard1 {
-    width: 50% !important;
-    padding-left: 40px !important;
+    width: auto;
+    height: auto;
   }
 
-  .card-title {
+  .firstcard {
+    width: 40%;
+  }
+  .secondcard {
+    display: none;
+  }
+  .thirdcard {
+    width: 50%;
+    padding-left: 10%;
+  }
+  .card-img-top {
     margin-top: 0 !important;
   }
-  .img_w_5 {
-    height: 100px;
+  .shirt_txt_short {
+    display: initial;
+    font-size: 15px;
+    margin: 0;
+  }
+  .short_desc {
+    margin-bottom: -25px;
+  }
+  .shirt_prc {
+    font-size: 18px;
+  }
+  #strs1 {
+    width: 20px;
+  }
+  .btnbuy {
+    width: 175px;
+    height: 40px;
+  }
+  .circlesize {
+    width: 40px;
+    height: 40px;
   }
   /* #Clothes men */
 
@@ -686,16 +686,9 @@ html {
   }
   /* #About us */
 
-  .firstcard1 {
-    margin-top: 0 !important;
-  }
-
-  .t-shirt_txt_card {
-    width: auto !important;
-    padding-right: 20px;
-  }
-  .t-shirt_txt {
-    font-size: 15px !important;
+  .firstcard {
+    margin-left: 30px;
+    padding-right: 50px;
   }
 
   /* Contact us */
@@ -779,18 +772,19 @@ html {
   }
 
   /* Clothes men */
-  .available {
-    font-size: 16px;
+  .firstcard {
+    margin-left: 20px;
+    padding-right: 40px;
   }
+  .shirt_txt_short {
+    font-size: 13px;
+  }
+
   #strs1 {
     width: 15px;
   }
-  .gucci_txt {
-    font-size: 15px !important;
-  }
   .card-title {
-    font-size: 16px;
-    margin-bottom: 15px;
+    margin-top: 35px !important;
   }
   .btnbuy {
     height: 35px;
@@ -893,6 +887,24 @@ html {
     width: 490px;
   }
   /* #Contact us */
+
+  /* Clothes men */
+
+  .cardsborder {
+    padding-right: 0 !important;
+  }
+  .firstcard {
+    margin-left: 10px;
+    padding-right: 20px;
+  }
+  .thrdcrd {
+    padding: 0;
+  }
+  .circlesize {
+    width: 40px;
+    height: 40px;
+  }
+  /* #Clothes men */
 }
 
 @media (max-width: 590px) {
@@ -956,6 +968,26 @@ html {
     margin-left: 10px !important;
   }
   /* #About us */
+  .firstcard {
+    width: 45% !important;
+  }
+  .thirdcard {
+    width: 50% !important;
+  }
+  .available {
+    font-size: 18px;
+  }
+  .short_desc {
+    font-size: 14px;
+  }
+  .btnbuy {
+    width: 115px;
+    height: 35px;
+  }
+  .circlesize {
+    width: 35px;
+    height: 35px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -1052,42 +1084,42 @@ html {
   /* #About us */
 
   /* Clothes men */
-  .cardsborder1 {
-    height: 200px !important;
-    margin-bottom: 25px;
+  .cardsborder {
+    height: 220px;
+    margin: 30px !important;
+    padding-left: 5px !important;
   }
-  .first_img {
-    width: 100px !important;
+  .firstcard {
+    padding-right: 8px;
   }
-  .t-shirt_txt {
-    font-size: 12px !important;
+  .shrt {
+    width: auto;
+    height: 130px;
+    margin-left: 14px;
   }
   .available {
     font-size: 15px;
     margin-bottom: 0;
   }
-  #strs1 {
-    width: 15px;
-  }
-  .gucci_txt {
-    font-size: 12px !important;
-    line-height: 15px;
-  }
   .card-title {
     font-size: 14px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   .btnbuy {
-    height: 25px;
+    width: 90px;
+    height: 30px;
     margin-top: 0 !important;
   }
   .circlesize {
-    height: 26px;
+    width: 30px;
+    height: 30px;
     margin-top: 0 !important;
   }
   .hrt {
-    width: 14px;
+    width: 18px;
   }
+  /* #Clothes men */
+
   .numbers {
     font-size: 12px !important;
   }
@@ -1103,7 +1135,6 @@ html {
     font-size: 15px;
     margin-right: 14px !important;
   }
-  /* #Clothes men */
 
   /* New products */
   .imgsize {
@@ -1227,27 +1258,21 @@ html {
     margin: 5px !important;
   }
   /* Clothes men */
-  .cardsborder1 {
-    width: 350px !important;
-    height: 160px !important;
-    padding: 15px !important;
+  .cardsborder {
+    height: 190px;
+    padding-top: 10px !important;
   }
-  .firstcard1 {
-    padding-left: 0 !important;
+  .shirt_txt_short {
+    font-size: 10px;
   }
-  .first_img {
-    width: 90px !important;
-    margin-bottom: 5px !important;
+  .shrt {
+    width: auto;
+    height: 120px;
+    margin-left: 10px;
   }
-  .t-shirt_txt_card {
-    padding: 0;
-    padding-right: 5px;
-  }
-  .thirdcard1 {
-    padding-left: 15px !important;
-  }
-  .gucci_txt {
-    margin-bottom: 4px;
+  .short_desc {
+    font-size: 13px;
+    margin-top: 10px;
   }
   /* #Clothes men */
 
@@ -1354,6 +1379,16 @@ html {
     margin-left: 3px !important;
   }
   /* #About us */
+
+  /* Clothes men */
+  .cardsborder {
+    margin: 15px !important;
+  }
+  .shrt {
+    margin-left: 4px;
+  }
+
+  /* #Clothes men */
 
   .placeholder {
     width: 350px;

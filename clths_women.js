@@ -17,8 +17,8 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
   .then(function (data) {
     function myFunction(x, y) {
       if (x.matches) {
-        const res4 = data.map((product) => {
-          const markup4 = `
+        const res5 = data.map((product) => {
+          const markup5 = `
       <div class="d-flex justify-content-center mt-5">
       <div
         class="card-group mx-5 p-4 cardsborder mt-5 d-flex align-items-center"
@@ -73,18 +73,18 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
       </div>
     </div>
     `;
-          return markup4;
+          return markup5;
         });
 
-        clths_women_cntnr.innerHTML = res4.join("");
+        clths_women_cntnr.innerHTML = res5.join("");
       } else if (y.matches) {
         clths_women_cntnr.innerHTML = `<div class="d-flex justify-content-center">
       <div class="card-group mx-5 mt-5 p-4 cardsborder1 d-flex align-items-center">
         <div class="border-end firstcard1">
-          <img src="./textile/imgs/Rectangle 141.png" class="card-img-top first_img" />
+          <img src="https://textil.sadaf-med.uz/${product.images}" class="card-img-top first_img" />
           <div class="secondcard1 inter t-shirt_txt_card">
             <h5 class="text-muted t-shirt_txt">
-              Henley This is the name of T-shirts with buttons.
+              ${product.slug}
             </h5>
           </div>
         </div>
