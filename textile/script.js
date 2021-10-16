@@ -39,7 +39,7 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
             <img id="strs" src="./textile/imgs/stargold.svg" />
             <img id="strs" src="./textile/imgs/stargold.svg" />
             <img id="strs" src="./textile/imgs/starsilver.svg" />
-            <p class="card-title mt-2 price"><strong>${product.regular_price}</strong></p>
+            <p class="mt-2 price"><strong>${product.regular_price}</strong></p>
             <div class="d-flex">
               <a href="#" class="btn btn-primary w-75 blueclr radius"
                 ><span class="loremsize"><strong>BUY NOW</strong></span></a
@@ -78,8 +78,8 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
           />
           <div>
             <p class="cardtxt mt-3 inter">${product.description}</p>        
-            <div class="d-flex justify-content-between"><p class="card-title mt-2 price"><strong>${product.regular_price}</strong></p><div class="d-flex align-items-center"><img id="strs" class="me-2" src="./textile/imgs/stargold.svg" /><strong>4.2</strong></div></div>
-            <div class="d-flex">
+            <div class="d-flex justify-content-between"><p class="mt-2 price"><strong>${product.regular_price}</strong></p><div class="d-flex align-items-center rtng"><img id="strs" class="me-2" src="./textile/imgs/stargold.svg" /><strong>4.2</strong></div></div>
+            <div class="d-flex btn_buy">
               <a href="#" class="btn btn-primary w-100 blueclr radius"
                 ><span class="loremsize"><strong>BUY NOW</strong></span></a
               >
@@ -117,7 +117,7 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
           />
             <div>
               <p class="cardtxt mt-3 inter">${product.description}</p>
-              <p class="card-title mt-2 price"><strong>${product.description}</strong></p>
+              <p class="mt-2 price"><strong>${product.description}</strong></p>
               <div class="d-flex align-items-center">
                 <p class="line_through">${product.sale_price}</p> 
                 <div class="d-flex align-items-center m_top_mns">
@@ -139,4 +139,3 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
 
     dscntd_prdcts_cntnr.innerHTML = res3.join("");
   });
-

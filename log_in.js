@@ -26,6 +26,4 @@ btn_log_in.addEventListener("click", function () {
         window.location.replace("index.html");
       }
     });
-
-  console.log(usrnm.value, psswrd.value);
 });

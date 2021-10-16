@@ -16,6 +16,16 @@ btn.addEventListener("click", function () {
   formdata.append("password", psswrd.value);
   formdata.append("phone", phn.value);
 
-  console.log(usrnm.value, psswrd.value);
-  window.location.replace("index.html");
+  fetch("https://textil.sadaf-med.uz/api/login", {
+    method: "POST",
+    body: formdata,
+    headers: headersList,
+  })
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (data) {
+      console.log(data);
+      window.location.replace("index.html");
+    });
 });
