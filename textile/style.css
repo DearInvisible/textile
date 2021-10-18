@@ -4,6 +4,13 @@ p.active {
   color: rgba(0, 0, 0, 0.8) !important;
   font-weight: bold;
 }
+.like_hidden {
+  display: none;
+}
+.like_n,
+.like_r {
+  cursor: pointer;
+}
 /* #Utlts */
 
 html {
@@ -49,8 +56,12 @@ a {
 .price {
   font-size: 20px;
 }
-#strs {
+.strs {
   width: 16px;
+  cursor: pointer;
+}
+.str_hidden {
+  display: none;
 }
 .radius {
   border-radius: 8px;
@@ -165,7 +176,7 @@ a {
 .shirt_txt_short {
   display: none;
 }
-#strs1 {
+.strs1 {
   width: 23px;
   margin-right: 6px;
   margin-bottom: 5px;
@@ -583,7 +594,7 @@ a {
   .shirt_prc {
     font-size: 18px;
   }
-  #strs1 {
+  .strs1 {
     width: 20px;
   }
   .btnbuy {
@@ -793,7 +804,7 @@ a {
     font-size: 13px;
   }
 
-  #strs1 {
+  .strs1 {
     width: 15px;
   }
   .card-title {
