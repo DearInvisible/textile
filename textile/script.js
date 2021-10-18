@@ -1,6 +1,12 @@
 const cardsContaienr = document.querySelector(".cardsContainer");
 const pplr_prdcts_cntnr = document.querySelector(".pplr_prdcts_cntnr");
 const dscntd_prdcts_cntnr = document.querySelector(".dscntd_prdcts_cntnr");
+const our_prdcts_men = document.querySelector(".our_prdcts_men");
+const our_prdcts_women = document.querySelector(".our_prdcts_women");
+
+// let ctgryId = `{\n    "category_id": "${
+//   our_prdcts_men.classList.contains("active") ? 14 : 15
+// }"\n}`;
 
 let headersList = {
   "User-Agent": "Thunder Client (https://www.thunderclient.io)",
@@ -10,7 +16,7 @@ let headersList = {
 
 fetch("https://textil.sadaf-med.uz/api/products_by_category", {
   method: "POST",
-  body: '{\n    "category_id": "6"\n}',
+  body: '{\n    "category_id": "14"\n}',
   headers: headersList,
 })
   .then(function (response) {

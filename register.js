@@ -5,27 +5,25 @@ const phn = document.querySelector(".phn");
 const btn = document.querySelector(".btn");
 
 btn.addEventListener("click", function () {
-  let headersList = {
-    "User-Agent": "Thunder Client (https://www.thunderclient.io)",
-    Accept: "application/json",
-  };
+  var myHeaders = new Headers();
+  myHeaders.append("Accept", "application/json");
+  myHeaders.append("Content-Type", "application/json");
 
   let formdata = new FormData();
   formdata.append("name", usrnm.value);
   formdata.append("email", email.value);
   formdata.append("password", psswrd.value);
-  formdata.append("phone", phn.value);
+  formdata.append("phone", +phn.value);
 
-  fetch("https://textil.sadaf-med.uz/api/login", {
+  var requestOptions = {
     method: "POST",
+    headers: myHeaders,
     body: formdata,
-    headers: headersList,
-  })
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (data) {
-      console.log(data);
-      window.location.replace("index.html");
-    });
+    redirect: "follow",
+  };
+
+  fetch("https://textil.sadaf-med.uz/api/register", requestOptions)
+    .then((response) => response.json())
+    .then((result) => console.log(result))
+    .catch((error) => console.log("error", error));
 });

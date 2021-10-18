@@ -21,7 +21,7 @@ btn_log_in.addEventListener("click", function () {
       return response.json();
     })
     .then(function (data) {
-      console.log(data);
+      console.log(email.value);
       if (data.status === "true") {
         window.location.replace("index.html");
       }
