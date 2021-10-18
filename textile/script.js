@@ -83,7 +83,7 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
               >
               <div class="circle ms-3 grey_border">
                 <a class="like_n"><img src="./textile/imgs/hrtnclr.png" /></a>
-                <a class="like_r like_hidden"><img src="./textile/imgs/redhrt.png"></a>
+                <a class="like_r like_hidden"><img src="./textile/imgs/heartblack.png"></a>
               </div>
             </div>
           </div>
@@ -243,7 +243,7 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
           />
             <div>
               <p class="cardtxt mt-3 inter">${product.description}</p>
-              <p class="mt-2 price"><strong>${product.description}</strong></p>
+              <p class="mt-2 price"><strong>${product.regular_price}</strong></p>
               <div class="d-flex align-items-center">
                 <p class="line_through">${product.sale_price}</p> 
                 <div class="d-flex align-items-center m_top_mns">
