@@ -30,7 +30,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+  
     <link rel="stylesheet" href="./textile/style.css" />
+
     <title>Home</title>
   </head>
 
@@ -153,17 +155,12 @@
             class="card-img-top cardimg coverimg"
           />
           <div>
-            <p class="cardtxt mt-3 inter">Armani hoodie special summer</p>cartoon cloud
-            <img class="strs st1_sh" src="./textile/imgs/stargold.svg" />
-            <img class="strs st1_h str_hidden" src="./textile/imgs/starsilver.svg">
-            <img class="strs st2_sh" src="./textile/imgs/stargold.svg" />
-            <img class="strs st2_h str_hidden" src="./textile/imgs/starsilver.svg">
-            <img class="strs st3_sh" src="./textile/imgs/stargold.svg" />
-            <img class="strs st3_h str_hidden" src="./textile/imgs/starsilver.svg">
-            <img class="strs st4_sh" src="./textile/imgs/stargold.svg" />
-            <img class="strs st4_h str_hidden" src="./textile/imgs/starsilver.svg" />
-            <img class="strs st5_sh str_hidden" src="./textile/imgs/stargold.svg" />
-            <img class="strs st5_h" src="./textile/imgs/starsilver.svg" />
+            <p class="cardtxt mt-3 inter">Armani hoodie special summer</p>
+            <div class="stars-outer">
+              <div class="stars-inner">
+                <div class="number-rating">3.56</div>
+              </div>
+            </div>
             <p class="card-title mt-2 price"><strong>177,900 UZS</strong></p>
             <div class="d-flex">
               <a class="btn btn-primary w-75 blueclr radius"
@@ -195,6 +192,87 @@
         <img class="ms-4 arrow" src="./textile/imgs/Arrow right.svg">
       </div>
     </div>
+
+<!--  -->
+<div id="carouselExampleIndicators" class="carousel slide mb-5 d-flex justify-content-center" data-bs-ride="carousel">
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- card -->
+      <div class="card me-3 suit_rounded p-3 mb-4 bg_clr_new card_crsl" style="width: 17rem; height: 22rem">
+        
+        <div class="row d-flex justify-content-center">
+          <img
+            src="./textile/imgs/Rectangle 173.svg"
+            class="card-img-top cardimg suit_rounded"
+          />
+          <div>
+            <p class="cardtxt mt-3 inter">Navy italian suit jacket</p>        
+            <div class="d-flex justify-content-between"><p class="card-title mt-2 price"><strong>177,900 UZS</strong></p><div class="d-flex align-items-center"><img id="strs" class="me-2" src="./textile/imgs/stargold.svg" /><strong>4.2</strong></div></div>
+            <div class="d-flex">
+              <a href="#" class="btn btn-primary w-100 blueclr radius"
+                ><span class="loremsize"><strong>BUY NOW</strong></span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- #card -->    
+    </div>
+    <div class="carousel-item">
+       <!-- card -->
+      <div class="card me-3 suit_rounded p-3 mb-4 bg_clr_new card_crsl" style="width: 17rem; height: 22rem">
+        
+        <div class="row d-flex justify-content-center">
+          <img
+            src="./textile/imgs/Rectangle 92.svg"
+            class="card-img-top cardimg suit_rounded"
+          />
+          <div>
+            <p class="cardtxt mt-3 inter">Navy italian suit jacket</p>        
+            <div class="d-flex justify-content-between"><p class="card-title mt-2 price"><strong>177,900 UZS</strong></p><div class="d-flex align-items-center"><img id="strs" class="me-2" src="./textile/imgs/stargold.svg" /><strong>4.2</strong></div></div>
+            <div class="d-flex">
+              <a href="#" class="btn btn-primary w-100 blueclr radius"
+                ><span class="loremsize"><strong>BUY NOW</strong></span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- #card --> 
+    </div>
+    <div class="carousel-item">
+       <!-- card -->
+      <div class="card me-3 suit_rounded p-3 mb-4 bg_clr_new card_crsl" style="width: 17rem; height: 22rem">
+        
+        <div class="row d-flex justify-content-center">
+          <img
+            src="./textile/imgs/Rectangle 173.svg"
+            class="card-img-top cardimg suit_rounded"
+          />
+          <div>
+            <p class="cardtxt mt-3 inter">Navy italian suit jacket</p>        
+            <div class="d-flex justify-content-between"><p class="card-title mt-2 price"><strong>177,900 UZS</strong></p><div class="d-flex align-items-center"><img id="strs" class="me-2" src="./textile/imgs/stargold.svg" /><strong>4.2</strong></div></div>
+            <div class="d-flex">
+              <a href="#" class="btn btn-primary w-100 blueclr radius"
+                ><span class="loremsize"><strong>BUY NOW</strong></span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-- #card --> 
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+   <img src="./textile/imgs/imgvector1.png">
+  </button>
+  
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <img src="./textile/imgs/imgvector2.png">
+  </button>
+</div>
+<!--  -->
 
     <div class="row d-flex justify-content-center ms-2 pplr_prdcts_cntnr" >
       <!-- card -->
@@ -282,11 +360,11 @@
        <!-- #card --> 
        </div>
 
-      <div class="d-flex circles justify-content-center my-2">
+      <!-- <div class="d-flex circles justify-content-center my-2">
         <div class="circles_lttl me-2 blueclr"></div>
         <div class="circles_lttl me-2"></div>
         <div class="circles_lttl me-4"></div>
-      </div>
+      </div> -->
  
     <div class="d-flex justify-content-center my-5">
       <div class="clothing_delivery">

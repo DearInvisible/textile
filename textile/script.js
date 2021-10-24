@@ -66,16 +66,9 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
           />
           <div>
             <p class="cardtxt mt-3 inter">${product.description}</p>
-            <img class="strs st1_sh" src="./textile/imgs/stargold.svg" />
-            <img class="strs st1_h str_hidden" src="./textile/imgs/starsilver.svg">
-            <img class="strs st2_sh" src="./textile/imgs/stargold.svg" />
-            <img class="strs st2_h str_hidden" src="./textile/imgs/starsilver.svg">
-            <img class="strs st3_sh" src="./textile/imgs/stargold.svg" />
-            <img class="strs st3_h str_hidden" src="./textile/imgs/starsilver.svg">
-            <img class="strs st4_sh" src="./textile/imgs/stargold.svg" />
-            <img class="strs st4_h str_hidden" src="./textile/imgs/starsilver.svg" />
-            <img class="strs st5_sh str_hidden" src="./textile/imgs/stargold.svg" />
-            <img class="strs st5_h" src="./textile/imgs/starsilver.svg" />
+             <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
             <p class="mt-2 price"><strong>${product.regular_price}</strong></p>
             <div class="d-flex">
               <a class="btn btn-primary w-75 blueclr radius"
@@ -129,59 +122,18 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
     });
     //# like //
 
-    // stars //
-    const st1_sh = document.querySelector(".st1_sh");
-    const st1_h = document.querySelector(".st1_h");
-    const st2_sh = document.querySelector(".st2_sh");
-    const st2_h = document.querySelector(".st2_h");
-    const st3_sh = document.querySelector(".st3_sh");
-    const st3_h = document.querySelector(".st3_h");
-    const st4_sh = document.querySelector(".st4_sh");
-    const st4_h = document.querySelector(".st4_h");
-    const st5_sh = document.querySelector(".st5_sh");
-    const st5_h = document.querySelector(".st5_h");
+    // stars rating //
+    const number_rating = 3.56;
+    const starsTotal = 5;
 
-    st5_sh.addEventListener("click", () => {
-      st5_sh.classList.add("str_hidden");
-      st5_h.classList.remove("str_hidden");
-    });
-    st5_h.addEventListener("click", () => {
-      st5_h.classList.add("str_hidden");
-      st5_sh.classList.remove("str_hidden");
-    });
-    st4_sh.addEventListener("click", () => {
-      st4_sh.classList.add("str_hidden");
-      st4_h.classList.remove("str_hidden");
-    });
-    st4_h.addEventListener("click", () => {
-      st4_h.classList.add("str_hidden");
-      st4_sh.classList.remove("str_hidden");
-    });
-    st3_sh.addEventListener("click", () => {
-      st3_sh.classList.add("str_hidden");
-      st3_h.classList.remove("str_hidden");
-    });
-    st3_h.addEventListener("click", () => {
-      st3_h.classList.add("str_hidden");
-      st3_sh.classList.remove("str_hidden");
-    });
-    st2_sh.addEventListener("click", () => {
-      st2_sh.classList.add("str_hidden");
-      st2_h.classList.remove("str_hidden");
-    });
-    st2_h.addEventListener("click", () => {
-      st2_h.classList.add("str_hidden");
-      st2_sh.classList.remove("str_hidden");
-    });
-    st1_sh.addEventListener("click", () => {
-      st1_sh.classList.add("str_hidden");
-      st1_h.classList.remove("str_hidden");
-    });
-    st1_h.addEventListener("click", () => {
-      st1_h.classList.add("str_hidden");
-      st1_sh.classList.remove("str_hidden");
-    });
-    //# stars //
+    document.addEventListener("DOMContentLoaded", getRating);
+    function getRating() {
+      const starPercantage = `${(number_rating / starsTotal) * 100}%`;
+      console.log(starPercantage);
+      document.querySelector(".stars-inner").style.width = starPercantage;
+    }
+    getRating();
+    // #stars rating //
   });
 
 fetch("https://textil.sadaf-med.uz/api/products_by_category", {
@@ -206,7 +158,7 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
             <p class="cardtxt mt-3 inter">${product.description}</p>        
             <div class="d-flex justify-content-between"><p class="mt-2 price"><strong>${product.regular_price}</strong></p><div class="d-flex align-items-center rtng"><img id="strs" class="me-2" src="./textile/imgs/stargold.svg" /><strong>4.2</strong></div></div>
             <div class="d-flex btn_buy">
-              <a href="#" class="btn btn-primary w-100 blueclr radius"
+              <a class="btn btn-primary w-100 blueclr radius"
                 ><span class="loremsize"><strong>BUY NOW</strong></span></a
               >
             </div>
@@ -253,7 +205,7 @@ fetch("https://textil.sadaf-med.uz/api/products_by_category", {
               </div>
             </div>
             <div class="d-flex">
-              <a href="#" class="btn btn-primary w-100 blueclr radius"
+              <a class="btn btn-primary w-100 blueclr radius"
                 ><span class="loremsize"><strong>BUY NOW</strong></span></a
               >
             </div>
